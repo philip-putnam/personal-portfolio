@@ -6,15 +6,23 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { BlogComponent } from './blog/blog.component';
+import { AboutComponent } from './about/about.component';
 
 const appRoutes: Routes = [
-  { path: '', component: WelcomeComponent }
+  { path: '', component: WelcomeComponent },
+  { path: 'blog', component: BlogComponent },
+  { path: 'about', component: AboutComponent },
 ];
 
 @NgModule({
   declarations: [
     AppComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    NavbarComponent,
+    BlogComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
