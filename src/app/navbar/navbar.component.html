@@ -1,14 +1,24 @@
 <nav class='navbar navbar-toggleable-md'>
+  <button class='navbar-toggler navbar-toggler-right' type='button' data-toggle='collapse' data-target='#navbarNavigation' aria-controls='navbarNavigation' aria-expanded='false' aria-label='Toggle navigation'>
+    <span class='navbar-toggler-icon'></span>
+  </button>
   <a class="navbar-brand" routerLink=''>Philip Putnam</a>
-  <span class='navbar-text'>
-    <a class="nav-item nav-link" routerLink=''>Home</a>
-  </span>
-  <span class='navbar-text'>
-    <a class='nav-item nav-link' routerLink='about'>About</a>
-  </span>
-  <span class='navbar-text'>
-    <a class='nav-item nav-link' routerLink='blog'>Blog</a>
-  </span>
+
+  <div class='collapse navbar-collapse' id='navbarNavigation'>
+    <ul class='navbar-nav mr-auto mt-2 mt-md-0'>
+      <li class='nav-item'>
+        <span class='navbar-text'>
+          <a class="nav-item nav-link" routerLink=''>Home</a>
+        </span>
+      </li>
+      <span class='navbar-text'>
+        <a class='nav-item nav-link' routerLink='about'>About</a>
+      </span>
+      <span class='navbar-text'>
+        <a class='nav-item nav-link' routerLink='blog'>Blog</a>
+      </span>
+    </ul>
+  </div>
 </nav>
 
 <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
