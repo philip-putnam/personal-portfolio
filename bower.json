@@ -1,0 +1,20 @@
+{
+  "name": "Philip Putnam",
+  "description": "A site dedicated to the software developer known as Philip Putnam",
+  "main": "",
+  "authors": [
+    "Philip Putnam <putnamp989@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
