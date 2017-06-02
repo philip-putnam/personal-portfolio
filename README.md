@@ -1,27 +1,18 @@
-# Angular2Portfolio
+# Philip Putnam
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.6.
+This project will be a new test bed for my personal portfolio site, which I hope to deploy using Google Firebase
 
-## Development server
+## Instructions
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+I hope to have this site deployed at https://www.philip-putnam.com until then you can clone this repository locally with the following directions:
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+1. Copy the URL of this page above or click on the "Clone or download" toward the top and right of this page
+2. After copying the URL, navigate to where you would like to place the project in a command line terminal
+3. Type: git clone https://github.com/philip-putnam/personal-portfolio
+4. In the command line terminal navigate inside the folder that is downloaded, i.e. angular2-portfolio, type: npm install
+5. type: bower install
+6. type: ng serve or ng s
+7. In your preferred compatible browser, navigate to localhost:4200
 
 ## Further help
 
