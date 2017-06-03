@@ -1,0 +1,16 @@
+[debug] [2017-06-03T00:31:32.253Z] ----------------------------------------------------------------------
+[debug] [2017-06-03T00:31:32.257Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\putna\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase open
+[debug] [2017-06-03T00:31:32.258Z] CLI Version:  3.9.1
+[debug] [2017-06-03T00:31:32.258Z] Platform:     win32
+[debug] [2017-06-03T00:31:32.258Z] Node Version: v6.10.3
+[debug] [2017-06-03T00:31:32.259Z] Time:         Fri Jun 02 2017 17:31:32 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-03T00:31:32.259Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-06-03T00:31:32.282Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-06-03T00:31:32.282Z] > authorizing via signed-in user
+[debug] [2017-06-03T00:31:32.287Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/personal-portfolio-20275  
+ Fri Jun 02 2017 17:31:32 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-03T00:31:33.062Z] <<< HTTP RESPONSE 200
+[debug] [2017-06-03T00:31:33.067Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/personal-portfolio-20275/tokens  
+ Fri Jun 02 2017 17:31:33 GMT-0700 (Pacific Daylight Time)
+[debug] [2017-06-03T00:31:33.461Z] <<< HTTP RESPONSE 200
